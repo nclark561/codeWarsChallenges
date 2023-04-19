@@ -10,4 +10,7 @@ function isPalindrome(str) {
   }
 };
 
-console.log(isPalindrome('raceca'));
+console.log(isPalindrome('racecar'));
+
+/* const isPalindrome = str => str.split('').reverse().join('') === str
+
